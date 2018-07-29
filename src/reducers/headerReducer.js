@@ -16,7 +16,10 @@ export default function(state = INITIAL_STATE, action) {
                 subtitle,
                 hideBar
             }
-           
+            // return {
+            //     ...state,
+            //     ...action.payload
+            // }
         default: return state;
     }
 }
